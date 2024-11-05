@@ -1,11 +1,12 @@
-import datetime
-
-
-class Snake:
+class BaseObject:
   pass
 
 
-class Apple:
+class Snake(BaseObject):
+  pass
+
+
+class Apple(BaseObject):
   pass
 
 
